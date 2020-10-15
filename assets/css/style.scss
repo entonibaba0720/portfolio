@@ -44,7 +44,7 @@ h6 {
   color: #33383f;
   font-weight: bold;
   line-height: 1.4;
-  margin: 1.66667rem 0 0.83333rem;
+  margin: 1.7rem 0 0.8rem;
 }
 h1:first-child,
 h2:first-child,
@@ -56,43 +56,42 @@ h6:first-child {
 }
 
 h1 {
-  font-size: 2.22222rem;
+  font-size: 2.3rem;
 }
 
 h2 {
-  font-size: 1.88889rem;
+  font-size: 1.8rem;
 }
 
 h3 {
-  font-size: 1.33333rem;
+  font-size: 1.3rem;
 }
 
 h4 {
-  font-size: 1.11111rem;
+  font-size: 1.1rem;
 }
 
 h5 {
-  font-size: 0.88889rem;
+  font-size: 0.9rem;
 }
 
 h6 {
   font-size: 14px;
-  letter-spacing: 0.075em;
+  letter-spacing: 0.075rem;
   text-transform: uppercase;
 }
 
 p {
-  margin: 0 0 1.66667em;
+  margin: 0 0 1.7rem;
 }
 
 ul,
 ol {
-  margin: 0 0 1.66667em;
-  padding: 0 0 0 1.66667em;
+  margin: 0 0 1.7rem;
+  padding: 0 0 0 1.7rem;
 }
 
-li > ul,
-li > ol {
+li > ul {
   margin-bottom: 0;
 }
 
@@ -100,37 +99,8 @@ hr {
   background-color: #e9ebed;
   border: 0;
   height: 1px;
-  margin: 1.66667em 0;
+  margin: 1.7rem 0;
 }
-
-table {
-  font-size: 0.88889rem;
-  line-height: 1.5;
-  margin: 0 0 1.66667rem;
-  text-align: left;
-  width: 100%;
-}
-
-caption {
-  color: #1c1f23;
-  font-size: 0.875em;
-  font-style: normal;
-  margin-bottom: 1em;
-  text-align: left;
-}
-
-th,
-td {
-  border-bottom: 1px solid #e9ebed;
-  padding: 0.5em 5px;
-}
-
-th {
-  color: #33383f;
-  font-weight: bold;
-}
-
-/* Form fields */
 
 button,
 a.button {
@@ -140,9 +110,9 @@ a.button {
   display: inline-block;
   font-size: 14px;
   height: 3em;
-  letter-spacing: 0.075em;
+  letter-spacing: 0.075rem;
   line-height: 1.5;
-  padding: 0.25em 35px;
+  padding: 0.25rem 35px;
   text-transform: uppercase;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
@@ -161,8 +131,8 @@ a.button:active {
 
 a.button {
   line-height: 1.2;
-  padding-bottom: 0.75em;
-  padding-top: 0.75em;
+  padding-bottom: 0.75rem;
+  padding-top: 0.75rem;
 }
 
 a.circle {
@@ -255,7 +225,7 @@ pre > code {
  * ----------------------------------------------------------------------------
  */
 .icon-menu {
-  background: currentColor;
+  background: #be2227;
   color: inherit;
   height: 2px;
   position: absolute;
@@ -269,7 +239,7 @@ pre > code {
 }
 .icon-menu:before,
 .icon-menu:after {
-  background: currentColor;
+  background: #be2227;
   content: "";
   height: 100%;
   position: absolute;
@@ -300,7 +270,7 @@ pre > code {
 
 .icon-arrow-left,
 .icon-arrow-right {
-  background: currentColor;
+  background: #be2227;
   color: inherit;
   height: 2px;
   left: 50%;
@@ -312,7 +282,7 @@ pre > code {
 }
 
 .icon-arrow-up {
-  background: currentColor;
+  background: #be2227;
   color: inherit;
   height: 16px;
   left: 50%;
@@ -326,7 +296,7 @@ pre > code {
 .icon-arrow-left:before,
 .icon-arrow-right:before,
 .icon-arrow-up:before {
-  border-color: currentColor;
+  border-color: #33383f;
   border-style: solid;
   content: "";
   position: absolute;
@@ -954,7 +924,7 @@ pre > code {
   border-color: #be2227;
 }
 .palette-red a:hover {
-  border-color: currentColor;
+  border-color: #be2227;
 }
 
 .palette-red button,
@@ -1203,8 +1173,8 @@ body.has-theme-bar #masthead {
 }
 
 .badge-pill {
-  padding-right: 0.6em;
-  padding-left: 0.6em;
+  padding-right: 0.6rem;
+  padding-left: 0.6rem;
   border-radius: 10rem;
 }
 
