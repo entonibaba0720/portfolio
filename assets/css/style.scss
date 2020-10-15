@@ -112,7 +112,7 @@ a.button {
   height: 3em;
   letter-spacing: 0.075rem;
   line-height: 1.5;
-  padding: 0.25rem 35px;
+  padding: 0.25rem 2rem;
   text-transform: uppercase;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
@@ -139,7 +139,7 @@ a.circle {
   background: transparent;
   color: #555e69;
   padding: 0;
-  width: 3em;
+  width: 3rem;
 }
 a.circle:hover,
 a.circle:focus,
@@ -193,19 +193,6 @@ img {
   content: "";
   height: 3px;
   margin-top: 1rem;
-}
-
-/* Clearing floats */
-code {
-  font-size: 86%;
-  background: #ff00000f;
-  color: #8d3636;
-}
-
-pre > code {
-  font-size: 100%;
-  color: #fff;
-  background: none;
 }
 
 @media only screen and (max-width: 769px) {
@@ -517,14 +504,14 @@ pre > code {
 }
 
 .site-content {
-  padding-bottom: 2.5em;
-  padding-top: 2.5em;
+  padding-bottom: 2.5rem;
+  padding-top: 2.5rem;
 }
 @media only screen and (min-width: 801px) {
   .site-content {
     margin-left: 30vw;
-    padding-bottom: 3.33333em;
-    padding-top: 3.33333em;
+    padding-bottom: 3.3rem;
+    padding-top: 3.3rem;
   }
 }
 @media only screen and (min-width: 1001px) {
@@ -534,7 +521,7 @@ pre > code {
 }
 
 .site-main {
-  margin-bottom: 3.33333em;
+  margin-bottom: 3.3rem;
 }
 
 .site-main,
@@ -615,7 +602,7 @@ pre > code {
 
 .site-title {
   color: #33383f;
-  font-size: 1.11111rem;
+  font-size: 1.1rem;
   font-weight: bold;
   line-height: 1;
   margin: 0;
@@ -628,7 +615,7 @@ pre > code {
 .site-description {
   font-size: 12px;
   line-height: 1;
-  margin: 0.25em 0 0;
+  margin: 0.25rem 0 0;
 }
 
 #menu-toggle {
@@ -659,15 +646,15 @@ pre > code {
 }
 
 .site-nav-inside {
-  padding-bottom: 4em;
-  padding-top: 4em;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
 }
 
 .menu {
   border-bottom: 1px solid #e9ebed;
   font-size: 14px;
   line-height: 1.5;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.15rem;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -676,7 +663,7 @@ pre > code {
 
 .menu-item {
   border-top: 1px solid #e9ebed;
-  padding: 0.5em 0;
+  padding: 0.5rem 0;
 }
 .menu-item a {
   border: 0;
@@ -690,7 +677,7 @@ pre > code {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-top: 1.66667em;
+  margin-top: 1.6rem;
 }
 
 .social-links a {
@@ -706,7 +693,7 @@ pre > code {
   height: 30px;
   -ms-flex-pack: center;
   justify-content: center;
-  margin: 0 10px 0.5em 0;
+  margin: 0 10px 0.5rem 0;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   width: 30px;
@@ -741,19 +728,15 @@ pre > code {
     overflow: hidden;
   }
   .site-header-inside {
-    padding-bottom: 3.33333em;
-    padding-top: 3.33333em;
+    padding-bottom: 3.3rem;
+    padding-top: 3.3rem;
   }
   .site-branding {
     -ms-flex-direction: column;
     flex-direction: column;
   }
-  .site-identity {
-    margin-bottom: 1.66667em;
-    padding: 0;
-  }
   .site-logo {
-    margin: 0 0 1.66667em;
+    margin: 0 0 1.6rem;
   }
   .site-logo img {
     max-height: 100px;
@@ -792,7 +775,6 @@ pre > code {
   .social-links a {
     margin: 0 5px 0.5em;
   }
-
   .social-card {
     text-align: center;
   }
@@ -928,9 +910,6 @@ pre > code {
 }
 
 .palette-red button,
-.palette-red input[type="submit"],
-.palette-red input[type="button"],
-.palette-red input[type="reset"],
 .palette-red a.button {
   background: #be2227;
   border-color: #be2227;
@@ -938,15 +917,6 @@ pre > code {
 .palette-red button:hover,
 .palette-red button:focus,
 .palette-red button:active,
-.palette-red input[type="submit"]:hover,
-.palette-red input[type="submit"]:focus,
-.palette-red input[type="submit"]:active,
-.palette-red input[type="button"]:hover,
-.palette-red input[type="button"]:focus,
-.palette-red input[type="button"]:active,
-.palette-red input[type="reset"]:hover,
-.palette-red input[type="reset"]:focus,
-.palette-red input[type="reset"]:active,
 .palette-red a.button:hover,
 .palette-red a.button:focus,
 .palette-red a.button:active {
@@ -991,26 +961,6 @@ pre > code {
   background: #be2227;
   border-color: #be2227;
   box-shadow: 0 0 1px 5px rgba(190, 34, 39, 0.2);
-}
-
-.palette-red .dark .social-links a {
-  border-color: #555e69;
-}
-.palette-red .dark .social-links a:hover {
-  border-color: #be2227;
-}
-
-.palette-red .post-title a:hover {
-  color: #be2227;
-}
-
-body.has-theme-bar #masthead {
-  top: 60px;
-}
-@media only screen and (max-width: 801px) {
-  body.has-theme-bar #masthead {
-    top: 0;
-  }
 }
 
 /* Resume */
